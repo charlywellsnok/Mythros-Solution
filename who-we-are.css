@@ -163,3 +163,451 @@ img{
     width:100%;
     background-size: cover;
 }
+
+
+
+/*footer*/
+/* =========================
+   FOOTER
+========================= */
+
+footer{
+    background-color: #06102B;
+    padding: 100px;
+}
+
+/* MAIN LAYOUT */
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+    margin-bottom: 24px;
+}
+
+/* LINKS */
+#list-item-footer,
+#policy-item-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+#menu-item-footer,
+#policy-item-footer a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* CONTACT */
+.image_logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.footer_logo{
+    width: 24px;
+    height: 24px;
+}
+
+.paragraph_footer{
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+/* COPYRIGHT */
+.footer_paragraph-div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer_paragraph{
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+
+/* =========================
+   MOBILE VIEW
+========================= */
+
+@media (max-width: 768px){
+
+    footer{
+        padding: 60px 24px;
+    }
+
+    .footer-div{
+        flex-direction: column;
+        gap: 40px;
+
+        margin-bottom: 50px;
+    }
+
+    /* LOGO */
+    .footer-div img{
+        max-width: 180px;
+    }
+
+    /* MENU LINKS */
+    #list-item-footer,
+    #policy-item-footer{
+        gap: 24px;
+    }
+
+    #menu-item-footer,
+    #policy-item-footer a{
+        font-size: 17px;
+    }
+
+    /* CONTACT */
+    .image_logo{
+        align-items: flex-start;
+        gap: 12px;
+
+        margin-bottom: 20px;
+    }
+
+    .paragraph_footer{
+        font-size: 16px;
+        line-height: 1.5;
+
+        word-break: break-word;
+    }
+
+    /* COPYRIGHT */
+    .footer_paragraph-div{
+        justify-content: flex-start;
+    }
+
+    .footer_paragraph{
+        font-size: 18px;
+        line-height: 1.5;
+    }
+}
+
+
+@media (max-width: 768px){
+
+    footer{
+        background-color: #06102B;
+        padding: 60px 24px;
+    }
+
+    .footer-div{
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+
+        margin-bottom: 60px;
+    }
+
+    /* LOGO */
+    .footer-div > div:first-child img{
+        width: 180px;
+    }
+
+    /* LINKS SECTION */
+    .footer-links{
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+    }
+
+    #list-item-footer,
+    #policy-item-footer{
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+    }
+
+    #menu-item-footer,
+    #policy-item-footer a{
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    /* CONTACT SECTION */
+    .image_logo{
+        display: flex;
+        align-items: center;
+        gap: 14px;
+
+        margin-bottom: 24px;
+    }
+
+    .footer_logo{
+        width: 24px;
+        height: 24px;
+    }
+
+    .paragraph_footer{
+        color: white;
+        font-size: 16px;
+        line-height: 1.5;
+
+        word-break: break-word;
+    }
+
+    /* COPYRIGHT */
+    .footer_paragraph-div{
+        justify-content: flex-start;
+    }
+
+    .footer_paragraph{
+        color: white;
+        opacity: 0.8;
+
+        font-size: 15px;
+        line-height: 1.6;
+    }
+}
+
+img{
+    cursor:pointer;
+}
+
+/*Hero*/
+.hero-div{
+    padding: 100px 100px;
+}
+
+.hero-div-main{
+    display: flex;
+    align-items: center;
+}
+
+#logo_img{
+  width: 34px;
+  height: 34px;
+}
+
+.hero-div-main{
+   gap: 4px;
+}
+.hero_text{
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.hero-div-main-text{
+    display: flex;
+    gap:61px;
+}
+
+.hero-div-main-header{
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.hero-div-main-paragraph{
+    width: 700px;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #3D4350;
+}
+
+#hero_img{
+    width: 1040px;
+    height:450px;
+}
+
+
+@media (max-width: 768px){
+
+    .hero-div{
+        padding: 60px 20px;
+    }
+
+    .hero-div-main{
+        margin-bottom: 24px;
+    }
+
+    .hero_text{
+        font-size: 18px;
+    }
+
+    .hero-div-main-text{
+        flex-direction: column;
+        gap: 24px;
+        margin-bottom: 40px;
+    }
+
+    .hero-div-main-header{
+        font-size: 36px;
+        line-height: 1.1;
+        width: 100%;
+    }
+
+    .hero-div-main-paragraph{
+        width: 100%;
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .hero_img{
+        width: 100%;
+    }
+
+    #hero_img{
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: cover;
+    }
+}
+
+
+
+
+/* =========================
+   TABLET VIEW
+========================= */
+
+@media (max-width: 1024px){
+
+    .hero-div{
+        padding: 80px 40px;
+    }
+
+    .hero-div-main{
+        margin-bottom: 24px;
+    }
+
+    .hero_text{
+        font-size: 16px;
+    }
+
+    .hero-div-main-text{
+        flex-direction: column;
+        gap: 32px;
+        margin-bottom: 50px;
+    }
+
+    .hero-div-main-header{
+        font-size: 56px;
+        line-height: 1.1;
+        width: 100%;
+    }
+
+    .hero-div-main-paragraph{
+        width: 100%;
+        font-size: 18px;
+        line-height: 1.8;
+    }
+
+    .hero_img{
+        width: 100%;
+    }
+
+    #hero_img{
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: cover;
+    }
+}
+
+
+
+/* =========================
+   OUR PURPOSE - LAPTOP VIEW
+========================= */
+
+.our-purpose{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    padding: 100px;
+    gap: 120px;
+}
+
+.our-purpose-list{
+    width: 35%;
+}
+
+.our-purpose-list h3{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 16px;
+    border-bottom: 2px solid #2563EB;
+    margin-bottom: 32px;
+}
+
+.our-purpose-list p{
+    font-size: 18px;
+    color: #9CA3AF;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.our-purpose-content{
+    width: 65%;
+}
+
+#our-purpose-img{
+    width: 100%;
+    height: auto;
+
+    display: block;
+    margin-bottom: 32px;
+}
+
+.our-purpose-content p{
+    font-size: 18px;
+    line-height: 1.8;
+    color: #4B5563;
+}
+
+
+/* =========================
+   OUR PURPOSE - MOBILE VIEW
+========================= */
+
+@media (max-width: 768px){
+
+    .our-purpose{
+        flex-direction: column;
+
+        padding: 60px 20px;
+        gap: 40px;
+    }
+
+    .our-purpose-list{
+        width: 100%;
+    }
+
+    .our-purpose-list h3{
+        font-size: 18px;
+
+        padding-bottom: 14px;
+        margin-bottom: 24px;
+    }
+
+    .our-purpose-list p{
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+
+    .our-purpose-content{
+        width: 100%;
+    }
+
+    #our-purpose-img{
+        width: 100%;
+        height: auto;
+
+        display: block;
+        margin-bottom: 24px;
+    }
+
+    .our-purpose-content p{
+        font-size: 16px;
+        line-height: 1.7;
+    }
+}

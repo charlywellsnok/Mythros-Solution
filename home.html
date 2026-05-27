@@ -5,151 +5,193 @@
         <link href = "home.css"  rel="stylesheet">
     </head>
     <body>
-        <!--Navbar-->
-        <section class = "navbar">
-            <img src = "img/Logo.png">
-            <div class = "navmenu" id ="navmenu">
-                <ul id = "list-item">
-                    <a id = "menu-item" href="who-we-are.html">Who we are</a>
-                    <a id = "menu-item" href="our-services.html">Our services</a>
-                    <a id = "menu-item" href="our-projects.html">Our Project</a>
-                </ul>
+    
+
+    <!-- NAVBAR -->
+    <section class="navbar">
+    <!-- LOGO -->
+        <a href="home.html">
+            <img src="img/Logo.png" alt="Mythros Logo">
+        </a>
+
+        <!-- DESKTOP MENU -->
+        <div class="navmenu">
+            <ul id="list-item">
+                <a class="menu-item" href="who-we-are.html">Who we are</a>
+                <a class="menu-item" href="our-services.html">Our Services</a>
+                <a class="menu-item" href="our-projects.html">Our Projects</a>
+            </ul>
+        </div>
+ 
+        <!-- BUTTON -->
+        <a href="work-with-us.html" id="nav-btn">
+            Work With Us
+        </a>
+
+        <!-- HAMBURGER -->
+        <div class="hamburger" id="hamburger">☰</div>
+    </section>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobileMenu">
+        <!-- CLOSE BUTTON -->
+        <div class="close-btn" id="closeBtn">✕</div>
+
+        <a class="menu-item" href="who-we-are.html">Who we are</a>
+        <a class="menu-item" href="our-services.html">Our Services</a>
+        <a class="menu-item" href="our-projects.html">Our Projects</a>
+    </div>
+
+
+
+    <!--HERO-->
+    <main >
+        <section class = "hero-container">
+            <div class = "hero-section">
+                <h1 class = "hero-header">Built for Health & Education. Designed for Growth</h1>
+                <p class = "hero-paragraph">We help organisations transform how they operate, scale, and deliver value through enterprise systems, workforce capability, and digital solutions, enabling smarter adoption of modern technologies, including AI.</p>
+                <div class = "hero-btn">
+                    <a href="work-with-us.html" id="btn-primary">Work With Us</a>
+                    <a href="our-projects.html" id="btn-secondary">View Our Projects</a>
+                </div>
             </div>
-            <button id = "nav-btn">
-                Work With Us
-            </button>
-            <div class="hamburger" id = "hamburger">☰</div>
+                
         </section>
 
-        <!--Hero-->
-        <main >
-            <section class = "hero-container">
-                <div class = "hero-section">
-                    <h1 class = "hero-header">Built for Health & Education. Designed for Growth</h1>
-                    <p class = "hero-paragraph">We help organisations transform how they operate, scale, and deliver value through enterprise systems, workforce capability, and digital solutions, enabling smarter adoption of modern technologies, including AI.</p>
-                    <div class = "hero-btn">
-                        <button id = "btn-primary">Work With Us</button>
-                        <button id = "btn-secondary">View Our Projects</button>
+
+
+        <!--ABOUT SECTION-->
+        <section class = "about_section">
+            <div class = "about_div">
+                <img src = "img/Star.png" id = "about_img">
+                <h3 id = "about_header">About Mythros</h3>
+            </div>
+            <div class = "about_container">
+                <p class = "about_paragraph">We combine strategy, systems, and execution to solve complex business challenges and deliver measurable outcomes.</p>
+                <div class = "item_list">
+                    <div class = "items">
+                        <h1 class = "items_header">5+</h1>
+                        <p class = "items_paragraph">Specialist disciplines in-house</p>
+                    </div>
+                    <div class = "items">
+                        <h1 class = "items_header">7+</h1>
+                        <p class = "items_paragraph">Active Projects in development</p>
+                    </div>
+                    <div class = "items">
+                        <h1 class = "items_header">3</h1>
+                        <p class = "items_paragraph">Industry verticals served</p>
+                    </div>
+                    <div class = "items" id = "items">
+                        <h1 id = "items_header">UK & Africa</h1>
+                        <p class = "items_paragraph">Dual Market Presence</p>
                     </div>
                 </div>
+            </div>
+        </section>
+
+            
+        
+        
+        
+        <!--BUILT SECTION-->
+        <section class = "built">
+            <div class = "built_text">
+                <h1 class = "built_header">Built to Build Business</h1>
+                <p class = "built_paragraph">Mythros Consulting partners with founders, operators, and institutions to design and deliver the systems that support business performance and growth. From strategy through execution, we build scalable, practical solutions that last.</p>
+                <a href="work-with-us.html" class = "built_btn"> Work With Us</a>
+            </div>
+            <div class = "built_img">
+                <img src = "img/built.png" id = "built_img">
+            </div>
+        </section>
+
+
+
+
+
+
+        <!--OUR CAPABILITIES SECTION-->
+        <section class = "our-capabilities">
+             <!-- STAR IMAGE -->
+            <img src="img/3star.png" class="capabilities-star">
+            <div class = "our-capabilities_text">
+                <h1 class = "our-capabilities-header-main">Our Capabilities</h1>
+                <p class = "our-capabilities-paragraph">Five practices, one integrated approach, from the business case to the live product.</p>
+            </div>
                 
-            </section>
-
-            <section class = "about_section">
-                <div class = "about_div">
-                    <img src = "img/Star.png" id = "about_img">
-                    <h3 id = "about_header">About Mythros</h3>
+            <div class = "our-capabilities-div-main">
+                <div class = "our-capabilities-div">
+                    <h1 class = "our-capabilities-header">Business Process Improvement</h1>
+                    <p class = "our-capabilities-paragraph">We design and optimise end-to-end business processes using automation, data, and structured workflows to improve efficiency and execution.</p>
                 </div>
-                <div class = "about_container">
-                    <p class = "about_paragraph">We combine strategy, systems, and execution to solve complex business challenges and deliver measurable outcomes.</p>
-                    <div class = "item_list">
-                        <div class = "items">
-                            <h1 class = "items_header">5+</h1>
-                            <p class = "items_paragraph">Specialist disciplines in-house</p>
-                        </div>
-                        <div class = "items">
-                            <h1 class = "items_header">7+</h1>
-                            <p class = "items_paragraph">Active Projects in development</p>
-                        </div>
-                        <div class = "items">
-                            <h1 class = "items_header">3</h1>
-                            <p class = "items_paragraph">Industry verticals served</p>
-                        </div>
-                        <div class = "items" id = "items">
-                            <h1 id = "items_header">UK & Africa</h1>
-                            <p class = "items_paragraph">Dual Market Presence</p>
-                        </div>
-                    </div>
+                <div class = "our-capabilities-div">
+                    <h1 class = "our-capabilities-header">Enterprise Technology & Performance</h1>
+                    <p class = "our-capabilities-paragraph">We implement and optimise enterprise systems and digital platforms to improve integration, visibility, and overall business performance.</p>
                 </div>
-
-            </section>
-
-            <section class = "built">
-                <div class = "built_text">
-                    <h1 class = "built_header">Built to Build Business</h1>
-                    <p class = "built_paragraph">Mythros Consulting partners with founders, operators, and institutions to design and deliver the systems that support business performance and growth. From strategy through execution, we build scalable, practical solutions that last.</p>
-
-                    <button class = "built_btn">Work With Us</button>
+                <div class = "our-capabilities-div">
+                    <h1 class = "our-capabilities-header">Human Capital & Capability Solutions</h1>
+                    <p class = "our-capabilities-paragraph">We design workforce models, operating structures, and capability frameworks that align people, processes, and technology for better execution.</p>
                 </div>
-                <div class = "built_img">
-                    <img src = "img/built.png" id = "built_img">
-                </div>
-            </section>
+            </div>
+        </section>
 
-            <section class = "our-capabilities">
-                <div class = "our-capabilities_text">
-                    <h1 class = "our-capabilities-header-main">Our Capabilities</h1>
-                    <p class = "our-capabilities-paragraph">Five practices, one integrated approach, from the business case to the live product.</p>
-                </div>
-                
-                <div class = "our-capabilities-div-main">
-                    <div class = "our-capabilities-div">
-                        <h1 class = "our-capabilities-header">Business Process Improvement</h1>
-                        <p class = "our-capabilities-paragraph">We design and optimise end-to-end business processes using automation, data, and structured workflows to improve efficiency and execution.</p>
-                    </div>
-                    <div class = "our-capabilities-div">
-                        <h1 class = "our-capabilities-header">Enterprise Technology & Performance</h1>
-                        <p class = "our-capabilities-paragraph">We implement and optimise enterprise systems and digital platforms to improve integration, visibility, and overall business performance.</p>
-                    </div>
-                    <div class = "our-capabilities-div">
-                        <h1 class = "our-capabilities-header">Human Capital & Capability Solutions</h1>
-                        <p class = "our-capabilities-paragraph">We design workforce models, operating structures, and capability frameworks that align people, processes, and technology for better execution.</p>
-                    </div>
-                </div>
-            </section>
 
-            <section class = "build-main">
-                <div class = "build">
-                    <div class = "build_text">
+
+
+
+        <!--BUILD SECTION-->
+    
+        <section class = "build-main">
+            <div class = "build">
+                <div class = "build_text">
                     <h1 class = "build_header">Ready to Build Something Lasting?</h1>
                     <p class = "build_paragraph">Whether you have a brief, a vision, or a business challenge, we’d love to hear from you. Let’s explore how Mythros can help you move from strategy to execution.</p>
-
-                    <button class = "build_btn">Get In Touch</button>
+                    <a href="work-with-us.html" class = "build_btn">Get In Touch</a>
                 </div>
                 <div class = "build_img">
                     <img src = "img/Handshake.png" id = "build_img">
                 </div>
-                </div>
-                
-            </section>
-        </main>
-        <footer>
-            <div class = "footer-div">
-                <div>
+            </div>   
+        </section>
+    </main>
+
+
+    <footer>
+        <div class = "footer-div">
+            <div class = "footer-logo">
                 <img src = "img/Logo.png" href = "home.html">
-
-                </div>
-                <div>
-                    <ul id = "list-item-footer">
-                        <a id = "menu-item-footer" href="who-we-are.html">Who we are</a>
-                        <a id = "menu-item-footer" href="our-services.html">Our services</a>
-                        <a id = "menu-item-footer" href="our-projects.html">Our Project</a>
-                    </ul>
-                </div>
-                <div>
-                    <ul id = "policy-item-footer">
-                        <a id = "policy-item-footer" href="who-we-are.html">Terms of use</a>
-                        <a id = "policy-item-footer" href="our-services.html">Privacy</a>
-                        <a id = "policy-item-footer" href="our-projects.html">Cookies</a>
-                    </ul>
-                </div>
-                <div >
-                    <div class = "image_logo">
-                       <img src = "img/streamline-color_send-email-flat.png" class ="footer_logo">
-                       <p class = "paragraph_footer">info@mythrosconsulting.co.uk</p>
-                    </div>
-                    <div class = "image_logo">
-                        <img src = "img/streamline-color_web-flat.png" class ="footer_logo">
-                        <p class = "paragraph_footer">www.mythrosconsulting.co.uk</p>
-                    </div>
-                    <div class = "image_logo">
-                       <img src = "img/mingcute_phone-call-fill.png" class ="footer_logo">
-                       <p class = "paragraph_footer">07700900000</p>
-                    </div>
-                    
-                </div>
-
             </div>
+            <div>
+                <ul id = "list-item-footer">
+                    <a id = "menu-item-footer" href="who-we-are.html">Who we are</a>
+                    <a id = "menu-item-footer" href="our-services.html">Our services</a>
+                    <a id = "menu-item-footer" href="our-projects.html">Our Project</a>
+                </ul>
+            </div>
+            <div>
+                <ul id = "policy-item-footer">
+                    <a id = "policy-item-footer" href="who-we-are.html">Terms of use</a>
+                    <a id = "policy-item-footer" href="our-services.html">Privacy</a>
+                    <a id = "policy-item-footer" href="our-projects.html">Cookies</a>
+                </ul>
+            </div>
+            <div>
+                <div class = "image_logo">
+                    <img src = "img/streamline-color_send-email-flat.png" class ="footer_logo">
+                    <p class = "paragraph_footer">info@mythrosconsulting.co.uk</p>
+                </div>
+                <div class = "image_logo">
+                    <img src = "img/streamline-color_web-flat.png" class ="footer_logo">
+                    <p class = "paragraph_footer">www.mythrosconsulting.co.uk</p>
+                </div>
+                <div class = "image_logo">
+                    <img src = "img/mingcute_phone-call-fill.png" class ="footer_logo">
+                    <p class = "paragraph_footer">07700900000</p>
+                </div>
+                    
+            </div>
+
+        </div>
             
             <div class = "footer_paragraph-div">
                 <p class = "footer_paragraph">© Mythrosconsulting, 2026. All rights reserved.</p>

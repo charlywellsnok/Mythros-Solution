@@ -6,7 +6,6 @@
 
 
 
-/*whole navbar*/
 .navbar{
     display:flex;
     width:100%;
@@ -30,7 +29,7 @@ img{
 /*menu items div*/
 #list-item{
     display:flex;
-    gap:20px;
+    gap:47px;
 }
 
 
@@ -40,11 +39,19 @@ img{
         cursor:pointer;
         color: black;
         text-decoration: none;
-
+        transition: 0.3s ease;
 }
 
 
-/* nav bar button*/
+/*menu items hover*/
+#menu-item:hover{
+    color: #1D4ED8;
+    transform: translateY(-2px);
+}
+
+
+
+/*navbar button*/
 #nav-btn{
     padding:12px 16px;
     border-radius: 35px;
@@ -54,9 +61,26 @@ img{
     color: #FFFFFF;
     border: none;
     cursor:pointer;
-
-    
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
 }
+
+
+
+
+/*menu items hover*/
+#nav-btn:hover{
+    background-color: #1D4ED8;
+    transform: translateY(-2px);
+}
+
+
+
 
 /*Hamburger*/
 .hamburger{
@@ -66,10 +90,14 @@ img{
 }
 
 
+
+/* =========================
+   NAVABR SECTION MOBILE VIEW
+========================= */
+
 /*navbar mobile view*/
 @media (max-width: 768px){
     .navbar{
-
     display:flex;
     width:100%;
     justify-content: space-between;
@@ -84,7 +112,6 @@ img{
 
     .navmenu{
         display:none; 
-
         /*Dropdown menu positioning*/
         position: absolute;
         top: 80px;
@@ -119,7 +146,6 @@ img{
     }
 
     
-
     /*fix logo size*/
     img{
         width: 110px;
@@ -135,6 +161,87 @@ img{
     }
 
 
+}
+
+/* MOBILE MENU */
+.mobile-menu{
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100vh;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 20px;
+    gap: 40px;
+    transition: 0.4s ease;
+    z-index: 2000;
+}
+
+
+/*menu items*/
+.menu-item{
+        font-size: 18px;
+        cursor:pointer;
+        color: black;
+        text-decoration: none;
+}
+
+
+/*menu items hover*/
+.menu-item:hover{
+    color: #1D4ED8;
+}
+
+
+/* SHOW MENU */
+.mobile-menu.active{
+    right: 0;
+}
+
+/* MOBILE LINKS */
+.mobile-menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+
+/* CLOSE BUTTON */
+.close-btn{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+
+    font-size: 32px;
+    cursor: pointer;
+}
+
+/* HAMBURGER */
+.hamburger{
+    display: none;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+/* MOBILE VIEW */
+@media (max-width: 768px){
+
+    .navmenu{
+        display: none;
+    }
+
+    #nav-btn{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    .navbar{
+        padding: 20px;
+    }
 }
 
 

@@ -5,23 +5,207 @@
         <link href = "our-projects.css"  rel="stylesheet">
     </head>
     <body>
-        <!--Navbar-->
-        <section class = "navbar">
-            <img src = "img/Logo.png">
-            <div class = "navmenu" id ="navmenu">
-                <ul id = "list-item">
-                    <a id = "menu-item" href="who-we-are.html">Who we are</a>
-                    <a id = "menu-item" href="our-services.html">Our services</a>
-                    <a id = "menu-item" href="our-projects.html">Our Project</a>
-                </ul>
+       
+        
+
+    <!-- NAVBAR -->
+    <section class="navbar">
+    <!-- LOGO -->
+        <a href="home.html">
+            <img src="img/Logo.png" alt="Mythros Logo">
+        </a>
+
+        <!-- DESKTOP MENU -->
+        <div class="navmenu">
+            <ul id="list-item">
+                <a class="menu-item" href="who-we-are.html">Who we are</a>
+                <a class="menu-item" href="our-services.html">Our Services</a>
+                <a class="menu-item" href="our-projects.html">Our Projects</a>
+            </ul>
+        </div>
+ 
+        <!-- BUTTON -->
+        <a href="work-with-us.html" id="nav-btn">
+            Work With Us
+        </a>
+
+        <!-- HAMBURGER -->
+        <div class="hamburger" id="hamburger">☰</div>
+    </section>
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobileMenu">
+        <!-- CLOSE BUTTON -->
+        <div class="close-btn" id="closeBtn">✕</div>
+
+        <a class="menu-item" href="who-we-are.html">Who we are</a>
+        <a class="menu-item" href="our-services.html">Our Services</a>
+        <a class="menu-item" href="our-projects.html">Our Projects</a>
+    </div>
+
+
+
+
+
+
+    <!-- OUR PROJECTS SECTION -->
+    <section class="our-projects">
+        <!-- TOP LABEL -->
+        <div class="projects-tag">
+            <img src="img/icon.png" alt="" class="projects-tag-icon">
+            <p class="projects-tag-text">WE ARE MYTHROS CONSULTING</p>
+        </div>
+
+        <!-- MAIN CONTENT -->
+        <div class="projects-content">
+        <!-- LEFT HEADING -->
+            <div class="projects-heading">
+                <h1 class = "projects-header">
+                    Built to help organisations transform and perform better.
+                </h1>
             </div>
-            <button id = "nav-btn">
-                Work With Us
-            </button>
-            <div class="hamburger" id = "hamburger">☰</div>
+
+            <!-- RIGHT TEXT -->
+            <div class="projects-description">
+                <p>At Mythros Consulting, we solve complex<span>business challenges</span>to create<span>lasting impact.</span>We help organisations build and scale smarter by combining strategy with execution, enabling faster delivery, stronger operations, and sustainable growth.</p>
+            </div>
+
+        </div>
+
+        <!-- FEATURE IMAGE -->
+        <div class="projects-image-wrapper">
+            <img src="img/hero_img.png" alt="" class="projects-image">
+        </div>
+
+    </section>
+
+
+
+    <section class="projects">
+        <!-- Card 1 -->
+        <div class="project-card">
+            <div class="project-image">
+                <span class="status">Under Development</span>
+            </div>
+
+            <div class="tags">
+                <span class="tag blue">HealthTech</span>
+                <span class="tag pink">Multi-system</span>
+            </div>
+
+            <h2>Mythros Health System</h2>
+
+            <p> A comprehensive hospital and clinic management platform designed to unify patient records, appointments, billing, and reporting into one system.</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="project-card">
+            <div class="project-image">
+                <span class="status">Under Development</span>
+            </div>
+
+            <div class="tags">
+                <span class="tag blue">Dental</span>
+                <span class="tag pink">SaaS</span>
+            </div>
+
+            <h2>Dentiq</h2>
+
+            <p>A dental practice management system designed to streamline patient journeys, treatment tracking, and appointment workflows.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="project-card">
+            <div class="project-image">
+                <span class="status">Under Development</span>
+            </div>
+
+            <div class="tags">
+                <span class="tag blue">Ophthalmology</span>
+                <span class="tag pink">Clinical</span>
+            </div>
+
+            <h2>Eye Clinic System</h2>
+
+            <p>A specialised clinical system for ophthalmology practices,supporting patient management, diagnostic workflows, and visioncare operations.</p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="project-card">
+            <div class="project-image">
+                <span class="status">Under Development</span>
+            </div>
+
+            <div class="tags">
+                <span class="tag blue">Facility Management</span>
+                <span class="tag pink">CRM</span>
+            </div>
+
+            <h2>FM CRM Platform</h2>
+
+            <p>A CRM and operations platform built for facility managementcompanies to manage clients, contracts, workforce scheduling,and compliance processes.</p></div>
+
+            <!-- Card 5 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <span class="status">Under Development</span>
+                </div>
+
+            <div class="tags">
+                <span class="tag blue">Education</span>
+                <span class="tag pink">Platform</span>
+            </div>
+
+            <h2>Educall</h2>
+
+            <p>An education platform connecting learners, instructors, andinstitutions with tools for content delivery, assessments,and academic progress tracking.</p>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="project-card">
+                <div class="project-image">
+                <span class="status">Under Development</span>
+            </div>
+
+            <div class="tags">
+                <span class="tag blue">Supply Chain</span>
+                <span class="tag pink">Digital</span>
+            </div>
+
+            <h2>Supply Chain Solutions</h2>
+
+            <p>A digital system designed to help SMEs and distributors manageinventory, vendors, and logistics operations in one unified platform.</p>
+            </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <!--BUILD SECTION-->
+    
+    <section class = "build-main">
+        <div class = "build">
+            <div class = "build_text">
+                <h1 class = "build_header">Ready to Build Something Lasting?</h1>
+                <p class = "build_paragraph">Whether you have a brief, a vision, or a business challenge, we’d love to hear from you. Let’s explore how Mythros can help you move from strategy to execution.</p>
+                 <a href="work-with-us.html" class = "build_btn">Get In Touch</a>
+                </div>
+                <div class = "build_img">
+                    <img src = "img/Handshake.png" id = "build_img">
+                </div>
+            </div>   
         </section>
 
+
         </main>
+
+
+        
 
         <footer>
             <div class = "footer-div">

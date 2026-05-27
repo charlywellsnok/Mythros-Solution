@@ -5,21 +5,170 @@
         <link href = "our-services.css"  rel="stylesheet">
     </head>
     <body>
-        <!--Navbar-->
-        <section class = "navbar">
-            <img src = "img/Logo.png">
-            <div class = "navmenu" id ="navmenu">
-                <ul id = "list-item">
-                    <a id = "menu-item" href="who-we-are.html">Who we are</a>
-                    <a id = "menu-item" href="our-services.html">Our services</a>
-                    <a id = "menu-item" href="our-projects.html">Our Project</a>
-                </ul>
+        
+
+     <!-- NAVBAR -->
+    <section class="navbar">
+    <!-- LOGO -->
+        <a href="home.html">
+            <img src="img/Logo.png" alt="Mythros Logo">
+        </a>
+
+        <!-- DESKTOP MENU -->
+        <div class="navmenu">
+            <ul id="list-item">
+                <a class="menu-item" href="who-we-are.html">Who we are</a>
+                <a class="menu-item" href="our-services.html">Our Services</a>
+                <a class="menu-item" href="our-projects.html">Our Projects</a>
+            </ul>
+        </div>
+ 
+        <!-- BUTTON -->
+        <a href="work-with-us.html" id="nav-btn">
+            Work With Us
+        </a>
+
+        <!-- HAMBURGER -->
+        <div class="hamburger" id="hamburger">☰</div>
+    </section>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu" id="mobileMenu">
+        <!-- CLOSE BUTTON -->
+        <div class="close-btn" id="closeBtn">✕</div>
+
+        <a class="menu-item" href="who-we-are.html">Who we are</a>
+        <a class="menu-item" href="our-services.html">Our Services</a>
+        <a class="menu-item" href="our-projects.html">Our Projects</a>
+    </div>            
+    </section>
+
+
+            <section class = "overview">
+                <p>OVERVIEW</p>
+                    <div class = "overview-div">
+                        <h1>One integrated approach from business case to live product.</h1>
+                        <p>Mythros works across strategy, systems, and digital delivery to help organisations move from idea to execution with clarity and confidence.</p>
+                    </div>
+            </section>
+
+            <section class = "what-we-do">
+                <div class = "what-we-do-main">
+                    <div class = "what-we-do-div">
+                        <img src = "img/what-we-do.png" id = "what-we-do-img">
+                        <p>WHAT WE DO</p>
+                    </div>
+                    <h1>Integrated capabilities built for business performance.</h1>
+                    <p>
+                        We connect strategy, technology, and operational delivery to help organisations build solutions that improve how they operate and scale.
+                    </p>
+                 </div>
+                <button id = "nav-btn">Work With Us</button>
+            </section>
+
+
+
+        <!-- SERVICES SECTION -->
+        <section class="services-section">
+            <div class="services-header">
+                <span></span>
+                <p>OUR CAPABILITIES</p>
+            </div class = "services-header1">
+                <h2>Services We Offer</h2>
             </div>
-            <button id = "nav-btn">
-                Work With Us
-            </button>
-            <div class="hamburger" id = "hamburger">☰</div>
-        </section>
+
+              <div class="services-wrapper">
+
+    <!-- ITEM 1 -->
+    <div class="service-card">
+      <div class="service-number">01</div>
+
+      <div class="service-content">
+        <h3>Business Process Improvement</h3>
+
+        <img src="img/our-service.png" alt="Business Process Improvement">
+
+        <p>
+          Reimagining how organisations operate to improve efficiency,
+          reduce complexity, and enable scalable performance.
+        </p>
+
+        <div class="tags">
+          <span>Operations</span>
+          <span>Automation</span>
+          <span>Efficiency</span>
+        </div>
+
+        <a href="#">View Details →</a>
+      </div>
+    </div>
+
+    <!-- ITEM 2 -->
+    <div class="service-card">
+      <div class="service-number">02</div>
+
+      <div class="service-content">
+        <h3>Enterprise Technology & Performance</h3>
+
+        <img src="img/our-services1.png" alt="Enterprise Technology">
+
+        <p>
+          Turning enterprise systems into drivers of visibility,
+          efficiency, and business value.
+        </p>
+
+        <div class="tags">
+          <span>ERP</span>
+          <span>Platforms</span>
+          <span>Data</span>
+        </div>
+
+        <a href="#">View Details →</a>
+      </div>
+    </div>
+
+    <!-- ITEM 3 -->
+    <div class="service-card">
+      <div class="service-number">03</div>
+
+      <div class="service-content">
+        <h3>Human Capital & Capability Solutions</h3>
+
+        <img src="img/our-services2.png" alt="Human Capital">
+
+        <p>
+          Building the workforce, capabilities, and operating models
+          needed for future-ready organisations.
+        </p>
+
+        <div class="tags">
+          <span>People</span>
+          <span>Capability</span>
+          <span>Transformation</span>
+        </div>
+
+        <a href="#">View Details →</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+    <!--BUILD SECTION-->
+    
+        <section class = "build-main">
+            <div class = "build">
+                <div class = "build_text">
+                    <h1 class = "build_header">Ready to Build Something Lasting?</h1>
+                    <p class = "build_paragraph">Whether you have a brief, a vision, or a business challenge, we’d love to hear from you. Let’s explore how Mythros can help you move from strategy to execution.</p>
+                    <a href="work-with-us.html" class = "build_btn">Get In Touch</a>
+                </div>
+                <div class = "build_img">
+                    <img src = "img/Handshake.png" id = "build_img">
+                </div>
+            </div>   
+        </section> 
 
         </main>
 
